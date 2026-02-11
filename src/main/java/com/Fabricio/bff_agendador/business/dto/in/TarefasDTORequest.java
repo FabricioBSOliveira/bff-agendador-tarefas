@@ -1,7 +1,6 @@
 package com.Fabricio.bff_agendador.business.dto.in;
 
 
-import com.Fabricio.bff_agendador.business.enums.StatusNotificacaoEnum;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 

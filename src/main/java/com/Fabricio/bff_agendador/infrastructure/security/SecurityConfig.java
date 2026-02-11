@@ -8,4 +8,8 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
                 bearerFormat = "JWT", scheme = "bearer")
 public class SecurityConfig {
     public static final String SECURITY_SCHEME = "bearerAuth";
+
+    private SecurityConfig() {
+        throw new IllegalStateException("Utility class");
+    }
 }

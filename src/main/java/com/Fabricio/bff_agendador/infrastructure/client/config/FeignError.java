@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 
 public class FeignError implements ErrorDecoder {
-    private final String ERROR_PREFIX = "Error: ";
+    private static String ERROR_PREFIX = "Error: ";
 
     @Override
     public Exception decode(String s, Response response) {
